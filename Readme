@@ -1,1 +1,26 @@
+Smart Email Messaging with AI (Smart Mail Genie)
+Description: This solution leverages the Gemini API and large language models (LLMs) to automatically generate messages based on user input. 
+By integrating with Flask-Mail, it allows for seamless email sending. Users can input recipient details and the generated message, edit it if 
+needed, and send it all from a single interface.
 
+Advantages:
+Quick Message Generation: Speeds up the process of drafting emails by generating messages based on input.
+Reduced Manual Typing: Minimizes the amount of typing required, thanks to AI-generated content.
+Enhanced Creativity: AI helps in generating ideas and content, enhancing the quality of communication.
+Integrated Solution: Combines the message generation and sending process in one platform, eliminating the need to switch between a chatbot and Gmail.
+
+To make code work we need to replace "todo" with api key, and add your gmail and password but don't use your original password.You should generate it by following below process.
+1. App Passwords
+What it is: An app password is a 16-digit passcode that gives less secure apps or devices permission to access your Google Account. You generate these passwords in your Google Account settings.
+How to get it:
+Go to your Google Account settings.
+Navigate to the "Security" section.
+Under "Signing in to Google," find "App passwords."
+Generate a new app password and use this password in your Flask configuration.
+
+Challenges:
+Thought to create story generator with image by inputting text. Which was not fruitful, due to hugging api key where it is downloading pipeline due to it storage capcity exceeds.
+Tried to create and advance capabilites of my voice assistant code using Gemini api key, but failed due to tkinker and pyttx3 packages are not working.
+Tried to make them work but it was becoming mess.
+At last i made easy useful thing.
+I used idx for less time due to busy.
