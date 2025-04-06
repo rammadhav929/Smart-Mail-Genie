@@ -9,8 +9,8 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = "b.rammadhav@gmail.com" # Replace with your Gmail address
-app.config['MAIL_PASSWORD'] = "vtopbkngcumofrxh"  # Replace with your Gmail password
+app.config['MAIL_USERNAME'] = "" # Replace with your Gmail address
+app.config['MAIL_PASSWORD'] = ""  # Replace with your Gmail password
 app.config['MAIL_DEFAULT_SENDER'] = 'your-email@gmail.com'
 
 mail = Mail(app)
@@ -21,7 +21,7 @@ mail = Mail(app)
 # - Selecting "Add Gemini API" in the "Project IDX" panel in the sidebar
 # - Or by visiting https://g.co/ai/idxGetGeminiKey
 
-todo='AIzaSyCfduMssiW87ji2fPOOE0IXGGtIKXp5YX0' # replace with api key
+todo='' # replace with api key
 API_KEY = todo
 
 genai.configure(api_key=API_KEY)
